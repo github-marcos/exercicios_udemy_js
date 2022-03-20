@@ -22,15 +22,25 @@ h2{
     margin-bottom: 3px;
     margin-left: 15px;
 }
+h3{
+padding: 0;
+padding-left: 30px;
+padding-bottom: 30px;
+}
 
 input{ 
     margin-left: 15px;
     height: 25px;
     margin-top: 0px;
 }
+#res{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
 
 div{
 padding-top: 10px;
+
 }
 
 #botão{
@@ -42,7 +52,7 @@ border-radius: 8px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-weight: bolder;
 margin-top: 25px;
-margin-bottom: 30px ;
+/* margin-bottom: 30px ; */
 box-shadow: 1px 3px;
 }
 
