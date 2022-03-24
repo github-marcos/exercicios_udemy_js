@@ -1,11 +1,11 @@
-var caracter = document.getElementById('input').value
+var caracter = document.getElementById('input')
 
-function acao(){
- input = onmouseout.style.backgroundColor.yellow
-if(caracter >= 3){
-    Document.write == ''.length
-}if(caracter <= 3){
-    document.write == ''.length
-}
-    
+function acao() {
+        caracter.style.backgroundColor = "#ffff00"
+        if(caracter.value.length > 0 && caracter.value.length <= 3){
+            caracter.style.backgroundColor = "#ff0000"
+        }if(caracter.value.length > 3){
+            caracter.style.backgroundColor = "#008000"
+        }
+        
 }
