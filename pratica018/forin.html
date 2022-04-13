@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in </title>
+</head>
+<body>
+
+    <script>
+        /* O for in é um recurso que permite a navegação por elementos do array que tenha chaves customizadas (não sequênciais)*/
+
+
+      // var listataConvidados = [ 'Jorge', 'Jamilton', 'José', 'Ana', 'Maria']
+
+        var listataConvidados = Array()
+
+        listataConvidados['a'] = 'Jorge'
+        listataConvidados[10] = 'Jamilton'
+        listataConvidados['Zebra'] = 'josé'
+        listataConvidados[-1] = 'Ana'
+        listataConvidados[true] = 'Maria'
+
+        console.log(listataConvidados)
+        
+        for( var x in listataConvidados){
+            console.log('Índice' + x + 'valor' + listataConvidados[x])
+        }
+    </script>
+</body>
+</html>
